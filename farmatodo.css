@@ -21,8 +21,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  /*align-items: center;
-  justify-content: space-between;*/
+  justify-content:flex-start;
+  align-items: center;
 }
 
 /*nav div{
@@ -52,9 +52,11 @@ select {
 .buscador {
     margin-top: 10px;
     outline: 0;
-    height: 50%;
-    /*border-radius: 0px 9px 9px 0px;*/
+    
+    border-radius: 0px 9px 9px 0px;
     align-items: center;
     border: 1px solid #418fde;
     
 }
+
+ 
