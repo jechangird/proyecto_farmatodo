@@ -20,9 +20,11 @@ body {
   /*background-color: aqua;*/
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  justify-content:flex-start;
+  gap: 40px;
+  justify-content: flex-start;
   align-items: center;
+  color: #418fde;
+  font-size: small;
 }
 
 /*nav div{
@@ -40,23 +42,19 @@ body {
 
 select {
   margin-top: 10px;
-  outline: 0;
   background: #f3f7f4;
   color: #418fde;
-  border: 1px solid #418fde;
   padding: 4px;
   border-radius: 9px 0 0 9px;
   height: 50%;
+  border: none;
 }
 
 .buscador {
-    margin-top: 10px;
-    outline: 0;
-    
-    border-radius: 0px 9px 9px 0px;
-    align-items: center;
-    border: 1px solid #418fde;
-    
-}
+  margin-top: 10px;
+  outline: 0;
 
- 
+  border-radius: 0px 9px 9px 0px;
+  align-items: center;
+  border: 1px solid #418fde;
+}
