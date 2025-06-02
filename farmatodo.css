@@ -82,22 +82,34 @@ select {
 }
 
 .banner {
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
+  flex-direction: row;
   justify-content: center;
   border: 1px solid #418fde;
 }
 
 #inicia_sesion {
   color: #001e62;
+  display:flex;
+  flex-direction:column;
 }
 
 #inicia_sesion p {
+  
   font-size: 14px;
   color: #616161;
-  padding-bottom: 0.3rem;
+  /*padding-bottom: 0.3rem;*/
 }
 
-#datos_iniciar_sesion {
-  display: flex;
+/*#datos_sesion {
+  display:flex;
+  flex-direction: row;
+}*/
+
+select{
+ border: 1px solid #acaaaa; /* Borde de 2px con color azul */
+  border-radius: 5px;       /* Bordes redondeados opcionales */
+  padding: 5px;   
 }
+
