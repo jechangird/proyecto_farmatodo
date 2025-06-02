@@ -25,6 +25,23 @@ body {
   align-items: center;
   color: #418fde;
   font-size: small;
+  margin-left: 20px;
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 30px;
+  color: white;
+  background-color: #418fde;
+  align-items: center;
+}
+
+.contenedor2 select {
+  background-color: #418fde;
+  color: white;
+  align-items: center;
 }
 
 /*nav div{
@@ -57,4 +74,30 @@ select {
   border-radius: 0px 9px 9px 0px;
   align-items: center;
   border: 1px solid #418fde;
+}
+
+#cupon {
+  float: left;
+  font-size: small;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #418fde;
+}
+
+#inicia_sesion {
+  color: #001e62;
+}
+
+#inicia_sesion p {
+  font-size: 14px;
+  color: #616161;
+  padding-bottom: 0.3rem;
+}
+
+#datos_iniciar_sesion {
+  display: flex;
 }
