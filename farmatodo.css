@@ -115,4 +115,9 @@ body {
 }
 
 
+#prueba select{
+  display:flex;
+  flex-direction: row;
+}
+
 
